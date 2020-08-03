@@ -1,7 +1,6 @@
-MIT License
+All rights reserved to owner of these files.
 
-Copyright (c) 2019 USMC1941
-Copyright (c) 2020 USMC1941
+Any use without prior authorization of owner may result in legal suit. For any questions please contact: felipediaz1121@gmail.com.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+-------- CONTENT ----------
+The following is a web site made in visual studio for Sigma Lambda Beta International Fraternity, Inc. All Rights Reserved.
