@@ -1,0 +1,677 @@
+body{
+    margin: 0;
+    background-image: url('stallion1.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+    
+
+
+
+nav{
+    background-color: rgba(131, 33, 243, 0.726);
+    position: fixed;
+}
+
+
+.nav-bar{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+
+}
+
+.title{
+    color: #fff;
+    width: 200px; 
+    padding-left: 100px;
+}
+
+
+
+.nav-toggle{
+    margin: 0 auto;
+    width: 800px;
+    margin-left: -20px;
+    
+}
+.nav-toggle ul{
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.nav-toggle a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.nav-toggle a:hover{
+    color: rgb(252, 120, 142);
+    transform: 0.3s ease in 0s;
+}
+
+.key{
+    margin-left: 110px;
+    text-align: right;
+}
+.key img{
+    width: 200px;
+}
+
+.report{
+    display: flex;
+    column-gap: 5px;
+    position: fixed;
+    margin-left: 1200px;
+    margin-top: 560px;
+  
+}
+
+.report a{
+    text-decoration: none;
+}
+
+.text{
+    background-color: red;
+}
+
+.text:hover , .incident-phone:hover{
+    background-color: rgb(107, 94, 158);
+}
+
+
+.report .text{
+    color: #fff;
+ 
+}
+
+
+
+.incident-phone{
+    background-image: url("icons8-iphone-52.png");
+    background-color: red;
+    width: 60px;
+}
+
+
+
+
+
+
+/*Main for home page css
+    START
+*/
+
+main{
+    padding-top: 740px;
+    width: 100%;
+}
+
+.mission-bar{
+    background-color: rgb(92, 60, 233);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+   
+}
+
+.mission-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.mission:hover, .events:hover , .involved:hover{
+    color: rgb(252, 120, 142);
+    transform: 0.3s ease in 0s;
+}
+
+.mission, .events, .involved{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.News{
+    background-color: white;
+    text-align: center;
+}
+
+.new-title{
+    color: rgb(100, 98, 98);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+
+}
+
+.intro{
+    text-align: center;
+    
+}
+
+.intro img{
+    width: 800px;
+    height: 500px;
+    border: 2px solid  rgb(92, 60, 233);
+}
+
+.readmore{
+color: white;
+width: 150px;
+font-size: 10px;
+height: 50px;
+background-color: rgb(92, 60, 233); 
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.readmore h1{
+ margin: 0 auto;
+}
+
+.readmore:hover{
+    background-color: rgb(107, 94, 158);
+}
+
+.motto{
+    background-color: rgb(92, 60, 233); 
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.motto h1{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: center;
+}
+
+.motto p{
+    font-size: 20px;
+}
+
+.upcoming-events{
+    background-color: white;
+    text-align: center;
+    margin-top: -35px;
+    padding-bottom: 20px;
+}
+
+#upcome{
+    color: rgb(100, 98, 98);
+    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.calender{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+
+}
+
+.calender .day{
+    width: 200px;
+    text-align: right;
+    padding-top: 10px;
+
+}
+.calender .day_month{
+    width: 200px;
+}
+
+.calender .title-calender{
+    width: 400px;
+}
+
+.register{
+color: white;
+width: 150px;
+font-size: 10px;
+height: 50px;
+background-color: rgb(92, 60, 233); 
+}
+
+.register h1{
+    margin: 0 auto;
+}
+
+.register:hover{
+    background-color: rgb(107, 94, 158);
+}
+
+.grid2{
+    display: flex;
+}
+
+.left{
+    background-color: rgb(92, 60, 233); 
+    color: white;
+    text-align: center;
+}
+
+.left h1{
+    font-size: 60px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.left h3{
+    font-size: 30px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.right img{
+    margin-bottom: -4px;
+}
+
+
+/*Main for home page css
+    End
+*/
+
+
+/*Main for OurFraternity page css
+    Start
+*/
+
+main{
+    padding-top: 740px;
+    width: 100%;
+}
+
+.content{
+    background-color: black;
+    color: white;
+}
+
+.fraternity{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.fraternity h1{
+    font-size: 60px;
+}
+.fraternity h3{
+    font-size: 30px;
+}
+
+.line{
+    background-color: rgb(92, 60, 233);
+    height: 5px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+p.paragraph, p.paragraph2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 1000px;
+    padding-top: 50px;
+}
+p.paragraph2{
+    padding-bottom: 50px;
+}
+
+
+
+
+.four-pillars{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.four-pillars p.explanation{
+    font-size: 20px;
+}
+
+.brotherhood, .bro-pic-1, .scholarship, .bro-pic-2, .cultural-awareness, .bro-pic-3, .bro-pic-4, .community-service{
+    width: 50%;
+    height: 600px;
+}
+
+.brotherhood h1, .scholarship h1, .cultural-awareness h1, .community-service h1{
+    padding-top: 10%;
+    
+    
+}
+
+.bro-pic-1{
+ background-image: url('brotherhood.jpg');
+ 
+}
+.bro-pic-2{
+    background-image: url('community.jpg');
+  
+}
+.bro-pic-3{
+    background-image: url('cultural.jpg');
+   
+}
+.bro-pic-4{
+    background-image: url('scholarship.jpg');
+
+   
+}
+
+.coasttocoast{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.coasttocoast .coast-text{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.coasttocoast p{
+    font-size: 20px;;
+}
+
+
+
+
+/*Main for OurFraternity page css
+    END
+*/
+
+
+/* Main for OurChapter page css 
+    START
+*/
+
+.ourchapter{
+    background-color: black;
+    color: white;
+}
+
+.ourchapter h1.top, .ourchapter h3.top, .ourchapter h2.top{
+    text-align: center
+}
+
+.members{
+    text-align: center;
+}
+
+.member{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.img1{
+    background-image: url("placeholder.png");
+}
+
+.img2{
+    background-image: url("placeholder.png");
+}
+
+.img3{
+    background-image: url("placeholder.png");
+}
+
+.img4{
+    background-image: url("placeholder.png");
+}
+.img1, .img2, .img3, .img4{
+    width: 15%;
+    height: 200px;
+}
+
+.description{
+    padding-top: 20px;
+}
+.description ul li{
+    list-style: none;
+}
+
+
+
+
+
+
+/*Main for OurChapter page css
+    END
+*/
+
+/*Main for News page css
+    START
+*/
+
+.news-1{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 40px;
+   
+}
+
+
+.news-1 .inner{
+    background-color: #fff;
+    border: 2px solid rgb(129, 0, 129);
+    max-width: 1300px;
+    margin-left: 140px;
+    
+    
+}
+
+.news-1 .inner .post-image{
+    background-image: url("Instagram.JPG");
+    width: 85%;
+    height: 600px;
+  
+    
+}
+
+.post-content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Main for News page css
+    END
+*/
+
+
+
+/*Main for ContactUs page css
+    START
+*/
+
+
+.contact-form{
+    text-align: center;
+   color: #fff;
+   font-weight: bold;
+   text-transform: capitalize;
+   background-image: url("man.jpg");
+    
+}
+
+.layer{
+    background-color: rgb(92, 60, 233);
+    opacity: 90%;
+}
+
+.contact-form{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.contact-form h1, .contact-form h2{
+    margin-bottom: 20px;
+}
+
+.contact-form h2{
+    margin-bottom: 40px;
+}
+
+
+label{
+    display: block;
+    font-size: 18px;
+    
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 165);
+    margin-bottom: 20px;
+    color: white;
+}
+
+textarea{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(0, 0, 165);
+    color: white;
+    
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+form .submit{
+    background: #fff;
+    border-color: transparent;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    
+    
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+
+/*Main for ContactUs page css
+    END
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    
+}
+
+.grid-3{
+    background-color: rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    
+}
+
+.column1{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column1 h2{font-size: 30px;}
+
+.column1 h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h3.email{  font-weight: bold;}
+
+span.phone{font-weight: bold;}
+
+
+.column-3{
+    margin-top: 40px;
+}
+
+.copyright{
+    background-color: rgb(1, 1, 61);
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+}
+
+.copyright h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
